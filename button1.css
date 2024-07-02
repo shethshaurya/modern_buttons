@@ -24,6 +24,7 @@
     line-height: 100%;
     font-size: larger;
     font-weight:100;
+    cursor: pointer;
 }
 
 .button::before{
@@ -43,5 +44,6 @@
 
 .button:hover::before{
     transform: scaleX(1); 
+    cursor: pointer;
 }
 
